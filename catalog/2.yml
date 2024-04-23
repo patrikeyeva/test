@@ -1,0 +1,18 @@
+sections:
+  - sectionName: Общие настройки
+    numberTeam: 1
+    sectionId: 2
+    collapse: false
+    row:
+      row1:
+        - label:
+          type: buttonsGroup
+          class: square
+          value: ""
+          options: ["С доступом в интернет", "Без доступа в интеренет"]
+          marked: true #будет ли отображаться в боковой панели
+      row2:
+        - label: Выберете стенд
+          type: select
+          value: ""
+          options: ["Прод", "Препрод", "Дев", "Тест"]

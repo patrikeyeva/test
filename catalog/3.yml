@@ -1,0 +1,35 @@
+sections:
+  - sectionName: dbs
+    numberTeam: 2 #уже другая команда
+    sectionId: 1
+    collapse: true
+    row:
+      row1:
+        - label: Количество бэкапов
+          type: input
+          class: number
+          value: 0
+        - label: Лабел селекта
+          type: select
+          value: ""
+          options: [опция1, опция2, опция3]
+        - label: Инстансы
+          type: input
+          class: range
+          min: 3
+          max: 33
+          value: 0
+      row2:
+        - label: Количество мили ядер
+          type: input
+          class: string
+          value: 0
+        - label: Количество ОЗУ МБ
+          type: input
+          class: string
+          value: 0
+      row3:
+        - label: База данных
+          type: select
+          value: ""
+          options: [PostgreSQL, MongoDB, SQLite]

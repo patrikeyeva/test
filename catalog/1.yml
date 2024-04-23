@@ -1,0 +1,20 @@
+sections:
+  - sectionName: Данные заказчика 
+    numberTeam: 1 
+    # у каждой команды будет свой номер,
+    # нужен для сортировки sectionId на странице
+    sectionId: 1 #порядковый номер секции на странице
+    collapse: false #можно свернуть или нет
+    row: 
+      row1:
+        - label: Имя заказчика
+          type: input
+          class: string
+          value: ""
+          #могут быть какие-то доп признаки
+      row2:
+        - label: Почта заказчика
+          type: input
+          class: string
+          value: ""
+          #могут быть какие-то доп признаки
