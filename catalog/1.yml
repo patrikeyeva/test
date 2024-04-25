@@ -5,6 +5,7 @@ sections:
     # нужен для сортировки sectionId на странице
     sectionId: 1 #порядковый номер секции на странице
     collapse: false #можно свернуть или нет
+    isCopyable: true
     row: 
       row1:
         - label: Имя заказчика
